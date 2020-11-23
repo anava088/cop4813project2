@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Project 2 COP4813</title>
+</head>
+<body>
+<h3>Project 2</h3>
+
+    <h1 class="center_header">Search for Movie Reviews</h1>
+
+    <div class="search_form_style">
+        <form method="POST" action="{{url_for('search')}}">
+{#            {{form.csrf}}#}
+{#            {{form.hidden_tag()}}#}
+
+            <label>Search by Movie Title:</label><br>
+            <p>Note: Search requires spacing to match original title </p>
+            <p>Example: "Batman" will work but not "Bat man"</p>
+            {{form.movie_title}}
+
+            <br><br>
+
+            <label>Order By:</label><br>
+            {{form.order_by}}
+            <br><br>
+            <label>Required:Please select whether to filter by critics picks</label><br>
+            {{form.critics}}
+            <br><br>
+
+            <input type="submit" value="Search">
+        </form>
+    </div>
+
+</body>
+</html>

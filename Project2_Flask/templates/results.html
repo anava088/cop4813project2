@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Project 2 COP4813</title>
+</head>
+<body>
+    <h1>Results</h1>
+    <table border="10">
+        <tr>
+            <th>Title</th><th>Publication Date</th><th>Opening Date</th><th>Summary</th><th>Link</th>
+
+        </tr>
+
+        {% for i in result['results'] %}
+                <tr>
+                    <td>{{ i['display_title'] }}</td><td>{{ i['publication_date'] }}</td><td>{{ i['opening_date'] }}</td>
+                    <td>{{ i['summary_short'] }}</td><td>{{ i['link']['url'] }}</td>
+
+                </tr>
+        {% endfor %}
+
+    </table>
+<a href="{{url_for('search')}}">Click here to start a new search</a>
+</body>
+</html>

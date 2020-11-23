@@ -1,0 +1,42 @@
+{
+  "status": "OK",
+  "copyright": "Copyright (c) 2020 The New York Times Company. All Rights Reserved.",
+  "has_more": false,
+  "num_results": 2,
+  "results": [
+    {
+      "display_title": "The Dark Knight Rises",
+      "mpaa_rating": "PG-13",
+      "critics_pick": 1,
+      "byline": "MANOHLA DARGIS",
+      "headline": "A Rejected Superhero Ends Up at Ground Zero",
+      "summary_short": "Christopher Nolan\u2019s \u201cDark Knight Rises\u201d wraps up his post-Sept. 11 epic of ambivalent good vs. multidimensional evil with a burst of light.",
+      "publication_date": "2012-07-18",
+      "opening_date": "2012-07-20",
+      "date_updated": "2017-11-02 04:18:15",
+      "link": {
+        "type": "article",
+        "url": "http://www.nytimes.com/2012/07/20/movies/the-dark-knight-rises-with-christian-bale.html",
+        "suggested_link_text": "Read the New York Times Review of The Dark Knight Rises"
+      },
+      "multimedia": null
+    },
+    {
+      "display_title": "The Dark Knight",
+      "mpaa_rating": "PG-13",
+      "critics_pick": 1,
+      "byline": "MANOHLA DARGIS",
+      "headline": "Showdown in Gotham Town",
+      "summary_short": "Pitched at the divide between art and industry, poetry and entertainment, \u201cThe Dark Knight\u201d goes darker and deeper than any Hollywood movie of its comic-book kind.",
+      "publication_date": "2008-07-18",
+      "opening_date": "2008-07-18",
+      "date_updated": "2017-11-02 04:18:08",
+      "link": {
+        "type": "article",
+        "url": "http://www.nytimes.com/2008/07/18/movies/18knig.html",
+        "suggested_link_text": "Read the New York Times Review of The Dark Knight"
+      },
+      "multimedia": null
+    }
+  ]
+}
